@@ -16,7 +16,7 @@ Webcam.set({
     });
     }
     console.log('ml5 version:',ml5.version);
-    classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/oFvTxi9jP/model.json',modalLoaded);
+    classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/AT1719t4C/model.json',modalLoaded);
     function modalLoaded (){
         console.log("modal is loaded");
     }
